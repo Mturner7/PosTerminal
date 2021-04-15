@@ -1,0 +1,13 @@
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\bin\Debug\netcoreapp3.1\PosTerminal.exe
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\bin\Debug\netcoreapp3.1\PosTerminal.deps.json
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\bin\Debug\netcoreapp3.1\PosTerminal.runtimeconfig.json
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\bin\Debug\netcoreapp3.1\PosTerminal.runtimeconfig.dev.json
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\bin\Debug\netcoreapp3.1\PosTerminal.dll
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\bin\Debug\netcoreapp3.1\PosTerminal.pdb
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\obj\Debug\netcoreapp3.1\PosTerminal.csprojAssemblyReference.cache
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\obj\Debug\netcoreapp3.1\PosTerminal.AssemblyInfoInputs.cache
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\obj\Debug\netcoreapp3.1\PosTerminal.AssemblyInfo.cs
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\obj\Debug\netcoreapp3.1\PosTerminal.csproj.CoreCompileInputs.cache
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\obj\Debug\netcoreapp3.1\PosTerminal.dll
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\obj\Debug\netcoreapp3.1\PosTerminal.pdb
+C:\Users\mturner7\dev\week4labs\PosTerminal\PosTerminal\obj\Debug\netcoreapp3.1\PosTerminal.genruntimeconfig.cache

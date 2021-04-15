@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTerminal", "PosTerminal\PosTerminal.csproj", "{0E1D97F2-E1C5-45CB-8A3B-78261FEEFD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosTerminalTests", "PosTerminalTests\PosTerminalTests.csproj", "{FBA338E9-048A-4515-BC38-3AB225A8542E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E1D97F2-E1C5-45CB-8A3B-78261FEEFD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1D97F2-E1C5-45CB-8A3B-78261FEEFD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1D97F2-E1C5-45CB-8A3B-78261FEEFD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1D97F2-E1C5-45CB-8A3B-78261FEEFD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA338E9-048A-4515-BC38-3AB225A8542E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA338E9-048A-4515-BC38-3AB225A8542E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA338E9-048A-4515-BC38-3AB225A8542E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA338E9-048A-4515-BC38-3AB225A8542E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02CBA186-1179-4D85-96D6-F0BA5447A855}
+	EndGlobalSection
+EndGlobal
