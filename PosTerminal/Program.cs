@@ -56,7 +56,7 @@ namespace PosTerminal
             decimal subtotal = SalesCalculator.CalculateSubtotal(userCart);
             decimal total = SalesCalculator.CalculateGrandTotal(subtotal);
 
-            Console.WriteLine($"Subtotal: ${subtotal:0.00} \nSales Tax: {SalesCalculator.SalesTax * 100}%" +
+            Console.WriteLine($"\nSubtotal: ${subtotal:0.00} \nSales Tax: {SalesCalculator.SalesTax * 100}%" +
                 $" \nGrand Total: ${total:0.00}");
         }
 
@@ -64,7 +64,8 @@ namespace PosTerminal
         {
             string fSeparator = new string('=', 110);
             string itemSeparator = new string('-', 110);
-
+            
+            Console.WriteLine("Boris' Menu:\n\n");
             Console.WriteLine($"   {"Name",-20} {"Price",-10} {"Category",25} {"Description",43}");
             Console.WriteLine(fSeparator);
 
@@ -82,15 +83,16 @@ namespace PosTerminal
         static void Run(ShoppingCart userCart)
         {
             Console.Clear();
-            Console.WriteLine("Welcome to  Boris' Market!\n");
-            
-            ViewMenu();
+            Console.WriteLine("Welcome to  Boris' Market! \n\nOptions:");
 
-            int decision = IntegerPrompt("\n[1] Order Something \n[2] Get out \n[3] Re-display the menu\n\n", 3);
-            
+            int decision = IntegerPrompt("\n[1] Order Something \n[2] Get out \n[3] Display the menu\n\n", 3);
+
+            Console.Clear();
+
             switch (decision)
             {
                 case 1:
+                    ViewMenu();
                     int index = IntegerPrompt("\nWhich item would you like to order?", MyMenu.Inventory.Count) - 1;
                     int quantity = IntegerPrompt("\nHow much of this item would you like to order?", 500);
                     userCart.AddItem(MyMenu.Inventory[index], quantity);
@@ -102,15 +104,11 @@ namespace PosTerminal
                     break;
 
                 case 3:
-                    Console.Clear();
                     ViewMenu();
                     break;
             }
-
             
             if (ContinuePrompt("\nWould you like to return the main menu?")) Run(userCart);
-
-
         }
 
         static void Main(string[] args)
